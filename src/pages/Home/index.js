@@ -44,7 +44,7 @@ function Home() {
           <div className="receita" key={receita.idMeal}>
             <img src={receita.strMealThumb} alt="Imagem da receita" />
             <h1>{receita.strMeal}</h1>
-            <Link to={`/receita/${receita.idMeal}`} className="button">Ver receita</Link>
+            <Link to={`/receita/${receita.idMeal}`} className="button">Ver</Link>
           </div>
         ))}
       </div>
